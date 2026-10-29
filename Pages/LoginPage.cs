@@ -19,7 +19,7 @@ namespace seleniumCSharpDemo.Pages
         {
             driver.FindElement(usernameField).SendKeys(username);
         }
-        {
+        
             
         public void EnterPassword(string password)
         {
