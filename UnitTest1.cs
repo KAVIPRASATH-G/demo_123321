@@ -22,7 +22,10 @@ public class UnitTest1
             "https://www.selenium.dev/"
         );
 
-       
+        Assert.That(
+            driver.Title,
+            Does.Contain("Selenium")
+        );
     }
 
     [TearDown]
