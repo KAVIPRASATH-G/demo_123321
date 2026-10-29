@@ -1,37 +1,42 @@
-﻿
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SeleniumCSharpDemo;
+using seleniumCSharpDemo.Pages;
 
-public class UnitTest1
+public class Tests
 {
-    private IWebDriver driver = null!;
+    private IWebDriver driver;
+    private LoginPage loginPage;
 
     [SetUp]
     public void Setup()
     {
         driver = new ChromeDriver();
+        driver.Manage().Window.Maximize();
+        LoginPage loginPage = new LoginPage(driver);
     }
 
     [Test]
-    public void OpenSeleniumWebsite()
+    public void LoginScenario()
     {
-        driver.Navigate().GoToUrl(
-            "https://www.selenium.dev/"
-        );
+       
+        loginPage.NavigateToLoginPage();
+        loginPage.EnterUsername("testuser");
+        loginPage.EnterPassword("password");
+        loginPage.ClickSubmitButton();
 
-        Assert.That(
-            driver.Title,
-            Does.Contain("Selenium")
-        );
+        // Add assertions to verify successful login
     }
 
     [TearDown]
-    public void Cleanup()
+    public void TearDown()
     {
-        driver?.Quit();
-        driver?.Dispose();
+        if (driver != null)
+        {
+            driver.Quit();
+            driver.Dispose();
+        }
+
     }
 }
