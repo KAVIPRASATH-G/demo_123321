@@ -13,7 +13,7 @@
     <SourceRoot Include="C:\Users\ahaly\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)selenium.webdriver\4.51.0\buildTransitive\Selenium.WebDriver.props" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver\4.51.0\buildTransitive\Selenium.WebDriver.props')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver\4.52.0\buildTransitive\Selenium.WebDriver.props" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver\4.52.0\buildTransitive\Selenium.WebDriver.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform\1.5.3\buildTransitive\net9.0\Microsoft.Testing.Platform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform\1.5.3\buildTransitive\net9.0\Microsoft.Testing.Platform.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform.msbuild\1.5.3\buildTransitive\Microsoft.Testing.Platform.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform.msbuild\1.5.3\buildTransitive\Microsoft.Testing.Platform.MSBuild.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.extensions.telemetry\1.5.3\buildTransitive\net9.0\Microsoft.Testing.Extensions.Telemetry.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.extensions.telemetry\1.5.3\buildTransitive\net9.0\Microsoft.Testing.Extensions.Telemetry.props')" />

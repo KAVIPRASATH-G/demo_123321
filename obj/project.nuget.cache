@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IUymp1coIHk=",
+  "dgSpecHash": "zii+XXFE1/c=",
   "success": true,
   "projectFilePath": "C:\\Users\\ahaly\\OneDrive\\Desktop\\Kavi - Project\\SeleniumCSharpDemo\\SeleniumCSharpDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahaly\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
+    "C:\\Users\\ahaly\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\ahaly\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\ahaly\\.nuget\\packages\\microsoft.codecoverage\\17.14.0\\microsoft.codecoverage.17.14.0.nupkg.sha512",
     "C:\\Users\\ahaly\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.0\\microsoft.net.test.sdk.17.14.0.nupkg.sha512",
@@ -19,8 +20,8 @@
     "C:\\Users\\ahaly\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512",
     "C:\\Users\\ahaly\\.nuget\\packages\\nunit.analyzers\\4.7.0\\nunit.analyzers.4.7.0.nupkg.sha512",
     "C:\\Users\\ahaly\\.nuget\\packages\\nunit3testadapter\\5.0.0\\nunit3testadapter.5.0.0.nupkg.sha512",
-    "C:\\Users\\ahaly\\.nuget\\packages\\selenium.support\\4.51.0\\selenium.support.4.51.0.nupkg.sha512",
-    "C:\\Users\\ahaly\\.nuget\\packages\\selenium.webdriver\\4.51.0\\selenium.webdriver.4.51.0.nupkg.sha512"
+    "C:\\Users\\ahaly\\.nuget\\packages\\selenium.support\\4.52.0\\selenium.support.4.52.0.nupkg.sha512",
+    "C:\\Users\\ahaly\\.nuget\\packages\\selenium.webdriver\\4.52.0\\selenium.webdriver.4.52.0.nupkg.sha512"
   ],
   "logs": []
 }

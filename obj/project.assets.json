@@ -8,6 +8,18 @@
           "build/netstandard2.0/coverlet.collector.targets": {}
         }
       },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/2.22.0": {
         "type": "package",
         "compile": {
@@ -616,10 +628,10 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
       },
-      "Selenium.Support/4.51.0": {
+      "Selenium.Support/4.52.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.51.0"
+          "Selenium.WebDriver": "4.52.0"
         },
         "compile": {
           "lib/netstandard2.0/Selenium.Support.dll": {
@@ -632,7 +644,7 @@
           }
         }
       },
-      "Selenium.WebDriver/4.51.0": {
+      "Selenium.WebDriver/4.52.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Selenium.WebDriver.dll": {
@@ -737,6 +749,21 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.4.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "sha512": "xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "type": "package",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.waithelpers.nuspec",
+        "lib/net35/SeleniumExtras.WaitHelpers.dll",
+        "lib/net40/SeleniumExtras.WaitHelpers.dll",
+        "lib/net45/SeleniumExtras.WaitHelpers.dll",
+        "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
       ]
     },
     "Microsoft.ApplicationInsights/2.22.0": {
@@ -1555,10 +1582,10 @@
         "nunit_256.png"
       ]
     },
-    "Selenium.Support/4.51.0": {
-      "sha512": "S0OQkNLgW0RLOWTrQCphdF4VNSi6lCZyEZdviLAoMHEYcyfv6Vya0P9YbzMM58YRfGdXgSjmORNSQA2o08gXbw==",
+    "Selenium.Support/4.52.0": {
+      "sha512": "14Lqh5OIs7hM4WUMJo16XUgRgZHvnBfEY1AtN1rPOxBXlCyDXr5A78OQiTx9HA180c0Xh3e6NwkTR4A5D5DlAw==",
       "type": "package",
-      "path": "selenium.support/4.51.0",
+      "path": "selenium.support/4.52.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1567,14 +1594,14 @@
         "icon.png",
         "lib/netstandard2.0/Selenium.Support.dll",
         "lib/netstandard2.0/Selenium.Support.xml",
-        "selenium.support.4.51.0.nupkg.sha512",
+        "selenium.support.4.52.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.51.0": {
-      "sha512": "pKs73tJtvaBaJPnroew0DQ+k2ZucsenFjIh2RIXSWnA4RJb7lUq7Ygx560EsJodEyfB5s9SWz/dJT5bx+LAN2g==",
+    "Selenium.WebDriver/4.52.0": {
+      "sha512": "ISAxyCkxAQ1pvJ9/9619q4DTdvuW4zaJydxoSqNFS7Db8JytgilbJXYHg7xwpGXXjNwXSx/07hqaKwL0Unf+pg==",
       "type": "package",
-      "path": "selenium.webdriver/4.51.0",
+      "path": "selenium.webdriver/4.52.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1596,19 +1623,20 @@
         "runtimes/win/native/selenium-manager.exe",
         "selenium-manager-THIRD-PARTY-NOTICES.txt",
         "selenium-manager.cdx.json",
-        "selenium.webdriver.4.51.0.nupkg.sha512",
+        "selenium.webdriver.4.52.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Microsoft.NET.Test.Sdk >= 17.14.0",
       "NUnit >= 4.3.2",
       "NUnit.Analyzers >= 4.7.0",
       "NUnit3TestAdapter >= 5.0.0",
-      "Selenium.Support >= 4.51.0",
-      "Selenium.WebDriver >= 4.51.0",
+      "Selenium.Support >= 4.52.0",
+      "Selenium.WebDriver >= 4.52.0",
       "coverlet.collector >= 6.0.4"
     ]
   },
@@ -1657,6 +1685,10 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
+          "DotNetSeleniumExtras.WaitHelpers": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.14.0, )"
@@ -1675,11 +1707,11 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.51.0, )"
+            "version": "[4.52.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.51.0, )"
+            "version": "[4.52.0, )"
           },
           "coverlet.collector": {
             "target": "Package",

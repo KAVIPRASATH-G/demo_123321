@@ -1,39 +1,62 @@
-
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using seleniumCSharpDemo.Utilities;
 
 namespace seleniumCSharpDemo.Pages
 {
-    public class HomePage
+    public class LoginPage
     {
         private readonly IWebDriver driver;
-        private readonly By usernameField = By.Id("username");
-        private readonly By passwordField = By.Id("password");
-        private readonly By submitButton = By.Id("submit");
 
-        public HomePage(IWebDriver driver)
+        private readonly By usernameField = By.Id("txtUsername");
+        private readonly By passwordField = By.Id("txtPassword");
+        private readonly By submitButton = By.Id("submitt");
+
+        private readonly WebDriverWait wait;
+
+        public LoginPage(IWebDriver driver)
         {
             this.driver = driver;
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+        }
+
+        public void NavigateToLoginPage()
+        {
+            driver.Navigate().GoToUrl(
+                "https://staging.cloud.jobpac.com.au/");
+        }
+
+        public void VerifyLoginPageTitle()
+        {
+            wait.Until(d => d.FindElement(usernameField).Displayed);
         }
 
         public void EnterUsername(string username)
         {
-            driver.FindElement(usernameField).SendKeys(username);
+
+            CommonMethods.EnterKeys(driver, usernameField, username);
         }
-        
-            
+
         public void EnterPassword(string password)
         {
-            driver.FindElement(passwordField).SendKeys(password);
+
+            CommonMethods.EnterKeys(driver, passwordField, password);
         }
 
         public void ClickSubmitButton()
         {
+
             driver.FindElement(submitButton).Click();
         }
 
-        public string GetTitle()
+        // Reusable Login Method
+        public void Login(string username, string password)
         {
-            return driver.Title;
+            NavigateToLoginPage();
+            VerifyLoginPageTitle();
+            EnterUsername(username);
+            EnterPassword(password);
+            ClickSubmitButton();
         }
     }
 }

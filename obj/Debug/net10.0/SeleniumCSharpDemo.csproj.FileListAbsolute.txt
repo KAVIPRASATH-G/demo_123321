@@ -1,3 +1,9 @@
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.csproj.AssemblyReference.cache
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.AssemblyInfoInputs.cache
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.AssemblyInfo.cs
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.csproj.CoreCompileInputs.cache
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.sourcelink.json
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\testhost.dll
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\testhost.exe
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\NUnit3.TestAdapter.pdb
@@ -10,6 +16,7 @@ C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net1
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\SeleniumCSharpDemo.runtimeconfig.json
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\SeleniumCSharpDemo.dll
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\SeleniumCSharpDemo.pdb
+C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\Microsoft.ApplicationInsights.dll
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\Microsoft.Testing.Extensions.Telemetry.dll
@@ -150,12 +157,6 @@ C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net1
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\runtimes\linux-x64\native\selenium-manager
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\runtimes\osx\native\selenium-manager
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\bin\Debug\net10.0\runtimes\win\native\selenium-manager.exe
-C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.csproj.AssemblyReference.cache
-C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.AssemblyInfoInputs.cache
-C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.AssemblyInfo.cs
-C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.csproj.CoreCompileInputs.cache
-C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.sourcelink.json
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\Selenium.B946C188.Up2Date
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\SeleniumCSharpDemo.dll
 C:\Users\ahaly\OneDrive\Desktop\Kavi - Project\SeleniumCSharpDemo\obj\Debug\net10.0\refint\SeleniumCSharpDemo.dll
