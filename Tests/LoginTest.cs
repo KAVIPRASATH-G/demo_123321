@@ -5,6 +5,7 @@ using seleniumCSharpDemo.Pages;
 namespace seleniumCSharpDemo.Tests
 {
     [TestFixture]
+    [Parallelizable(ParallelScope.All)]
     public class LoginTest : BaseTest
     {
         private LoginPage loginPage;
@@ -19,7 +20,7 @@ namespace seleniumCSharpDemo.Tests
         public void LoginScenario()
         {
             // Perform login
-            loginPage.Login("username", "password");
+            loginPage.Login("username2", "password2");
 
             // Verify successful login
             Assert.That(

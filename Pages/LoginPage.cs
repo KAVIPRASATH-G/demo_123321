@@ -17,7 +17,7 @@ namespace seleniumCSharpDemo.Pages
         public LoginPage(IWebDriver driver)
         {
             this.driver = driver;
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            this.wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
         }
 
         public void NavigateToLoginPage()

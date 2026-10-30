@@ -9,7 +9,7 @@ namespace seleniumCSharpDemo.Tests
         protected IWebDriver driver;
 
         [SetUp]
-        public void Setup()
+        public void SetUp()
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();

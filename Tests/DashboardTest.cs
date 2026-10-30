@@ -5,6 +5,7 @@ using seleniumCSharpDemo.Pages;
 namespace seleniumCSharpDemo.Tests
 {
     [TestFixture]
+    [Parallelizable(ParallelScope.All)]
     public class DashboardTest : BaseTest
     {
         private LoginPage loginPage;
@@ -19,7 +20,7 @@ namespace seleniumCSharpDemo.Tests
         public void VerifyDashboardAfterLogin()
         {
             // Step 1: Login
-            loginPage.Login("username", "password");
+            loginPage.Login("username1", "password1");
 
             Assert.That(
                 driver.Title.Contains("Dashboard"),
